@@ -3,13 +3,7 @@ import { motion } from "framer-motion";
 import PhotoRound from "./components/PhotoRound";
 
 function HomePage() {
-  const skills = [
-    { text: "React" },
-    { text: "HTML" },
-    { text: "CSS" },
-    { text: "JavaScript" },
-    { text: "Web Development" },
-  ];
+
 
   return (
     <div className="bg-black text-white flex p-10">
