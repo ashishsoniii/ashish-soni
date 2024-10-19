@@ -3,9 +3,13 @@ import img from "../../../assets/ashish4.jpg";
 
 function PhotoRound() {
   return (
-    <>
-      <img className="img-round" src={img} alt="" />
-    </>
+    <div className="flex items-center justify-center">
+      <img
+        className="rounded-full w-56 h-56 object-cover shadow-lg"
+        src={img}
+        alt="Ashish Soni"
+      />
+    </div>
   );
 }
 
